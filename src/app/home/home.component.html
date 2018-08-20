@@ -1,3 +1,29 @@
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <img src="assets/images/logo.png" width=50px height=50px>
+  <a class="navbar-brand">
+    <h1>
+      MoviesApp
+    </h1>
+  </a>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link  text-white" >Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  text-white" routerLink="/wishlist">WishList</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white">Contact Us</a>
+      </li>
+      <li class="nav-item my-sm-0 pt-2">
+        <a href="#">Login</a>
+      </li>
+    </ul>
+  </div>
+ </nav>
 <div class="container">
   
   <div class="row">
@@ -17,7 +43,7 @@
           </div>
           <div class="col-3">
             <button class="btn-block btn-info form-control" (click)="searchMovies()">Search</button>
-            <button routerLink="/wishlist" class="btn-block btn-info form-control">Wishlist</button>
+           
           </div>
         </div>
       </form>
@@ -95,3 +121,31 @@
   </div>
 
 </div>
+<footer class="page-footer font-small bg-dark fixed-bottom">
+  <div style="background-color:rgb(41, 40, 40);">
+    <div class="container">
+      <div class="row py-4 d-flex align-items-center">
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0 text-light">Follow Us On!</h6>
+         
+        </div>
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+        
+          <a class="gplus-ic" href="https://plus.google.com/">
+            <i class="fa fa-google-plus mr-4"> </i>
+          </a>
+        
+          <a class="fb-ic" href="https://www.facebook.com/">
+            <i class="fa fa-facebook mr-4"> </i>
+          </a>
+         
+          <a class="tw-ic" href="https://twitter.com/">
+            <i class="fa fa-twitter mr-4"> </i>
+          </a>
+          
+        </div>
+      </div>
+      <p class="text-light">© 2018 Copyright. All Rights Reserved | Design by Shirisha</p>
+    </div>
+  </div>
+</footer>
